@@ -13,7 +13,13 @@ Main Theme repo can be found [here](https://github.com/eldritch-theme/eldritch)
 <img src="screenshot.png" alt="Screenshot"/><br/>
 
 ### Installation
-1. Any instructions on how to install here
+
+1. Download `themes/eldritch.theme` and place it in your fish themes directory (`~/.config/fish/themes`).
+    - This can be done manually, or via installing this repo as a plugin via [fisher](https://github.com/jorgebucaran/fisher).
+2. Run the following command:
+```bash
+fish_config theme save eldritch
+```
 
 <!-- If you want to provide install from source options, you can use the following template: -->
 <!-- ### Installation From Source -->
